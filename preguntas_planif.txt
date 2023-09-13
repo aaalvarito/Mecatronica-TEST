@@ -1,0 +1,236 @@
+¿Qué indica la acción move en este dominio?
+
+
+
+
+a.
+Que antes de que un person ?p se mueva de house ?h1 a ?h2, ?p debe estar en ?h1, todos los objetos le pertenecen y debe llevárselos consigo.
+
+
+b.
+Que antes de que un person ?p se mueva de house ?h1 a ?h2, ?p debe estar en ?h1, y debe llevar consigo todos los objetos que posee.
+
+
+c.
+Que mientras un person ?p se mueve de house ?h1 a ?h2, ?p, además de estar en ?h1, y debe llevar consigo todos los objetos que posee.
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+Que antes de que un person ?p se mueva de house ?h1 a ?h2, ?p debe estar en ?h1, todos los objetos le pertenecen y debe llevárselos consigo.
+
+Pregunta 2
+Correcta
+Se puntúa 1,00 sobre 1,00
+Marcar pregunta
+Enunciado de la pregunta
+¿Qué indica la acción move en este dominio?
+
+
+
+
+a.
+Que antes de que un person ?p se mueva de house ?h1 a ?h2, ?p debe estar en ?h1 y debe llevarse consigo sus objetos.
+
+
+b.
+Que mientras un person ?p se mueve de house ?h1 a ?h2, ?p debe estar en ?h1 y debe llevarse consigo sus objetos.
+
+
+c.
+Que antes de que un person ?p se mueva de house ?h1 a ?h2, ?p debe estar en ?h1 y debe llevar consigo alguno de sus objetos.
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Que antes de que un person ?p se mueva de house ?h1 a ?h2, ?p debe estar en ?h1 y debe llevar consigo alguno de sus objetos.
+
+Pregunta 3
+Incorrecta
+Se puntúa -0,20 sobre 1,00
+Marcar pregunta
+Enunciado de la pregunta
+¿Qué indica este trozo de PDDL?
+
+
+
+
+a.
+Que para las instancias ?s de un problema de tipo site, si existen los predicados (walls-built ?s)(windows-fitted ?s)(cables-installed ?s), entonces se añade automáticamente el predicado (site-built ?s)
+
+
+b.
+Que para alguna instancia ?s de un problema de tipo site, si se cumple que (site-built ?s), entonces se añaden al problema el resto de los predicados (walls-built ?s)(windows-fitted ?s)(cables-installed ?s)
+
+
+c.
+Que para todas las instancias ?s de un problema de tipo site, si se cumple que (site-built ?s), entonces se añaden al problema el resto de los predicados (walls-built ?s)(windows-fitted ?s)(cables-installed ?s)
+
+
+d.
+Ninguna es verdadera
+
+
+e.
+No lo sé
+
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+Que para las instancias ?s de un problema de tipo site, si existen los predicados (walls-built ?s)(windows-fitted ?s)(cables-installed ?s), entonces se añade automáticamente el predicado (site-built ?s)
+
+Pregunta 4
+Correcta
+Se puntúa 1,00 sobre 1,00
+Marcar pregunta
+Enunciado de la pregunta
+Indica cuál es verdadera:
+
+
+a.
+Para un dominio PDDL se pueden definir un número ilimitado de problemas.
+
+
+b.
+Cada dominio PDDL se le asocia un problema.
+
+
+c.
+Un solo problema se puede aplicar a muchos dominios diferentes
+
+
+d.
+La esencia del problema es cumplir con el dominio en el ámbito de sus requerimientos.
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Para un dominio PDDL se pueden definir un número ilimitado de problemas.
+
+Pregunta 5
+Incorrecta
+Se puntúa -0,20 sobre 1,00
+Marcar pregunta
+Enunciado de la pregunta
+La diferencia entre un action y una durative action es:
+
+
+a.
+Las acciones permiten no usar tipos, y en las durative actions es obligatorio usar tipos 
+
+
+b.
+Las durative actions, al no ser instantáneas, tienen asociadas una duración, y sus requisitos y efectos se pueden especificar en las fases de antes de ejecutarse, durante la ejecución, y cuando termina.
+
+
+c.
+Las durative actions tienen duración, y sus requisitos se pueden especificar en las fases de antes de ejecutarse, durante la ejecución, y cuando termina.
+
+
+d.
+Los efectos de las durative actions no pueden ser contínuos y se aplican al inicio o al final. Las actions no tienen duración, así que se aplican en instantáneamente.
+
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+Las durative actions tienen duración, y sus requisitos se pueden especificar en las fases de antes de ejecutarse, durante la ejecución, y cuando termina.
+
+Pregunta 6
+Incorrecta
+Se puntúa 0,00 sobre 1,00
+Marcar pregunta
+Enunciado de la pregunta
+En PlanSys2 todos los predicados e instancias del problema se almacena en el Problem Expert, que atiende las consultas y solicitudes de actualización únicamente del resto de componentes de PlanSys2.
+
+Seleccione una:
+Verdadero 
+Falso
+Retroalimentación
+La respuesta correcta es 'Falso'
+Pregunta 7
+Sin contestar
+Puntúa como 1,00
+Marcar pregunta
+Enunciado de la pregunta
+Las clases clientes de los componentes de PlanSys2 como, por ejemplo, el ProblemExpertClient...
+
+
+a.
+Ninguna es verdadera
+
+
+b.
+Permiten realizar las operaciones del módulo del que es cliente de manera más eficiente.
+
+
+c.
+Permiten realizar las operaciones con un API más sencillo que el de la clase que contiene la lógica del módulo.
+
+
+d.
+Permiten llamar a los servicios de los módulos, pero evitando la complejidad de formar mensajes y realizar las peticiones, aportando un API igual que la de la clase que contiene la lógica del módulo.
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es: Permiten llamar a los servicios de los módulos, pero evitando la complejidad de formar mensajes y realizar las peticiones, aportando un API igual que la de la clase que contiene la lógica del módulo.
+Pregunta 8
+Correcta
+Se puntúa 1,00 sobre 1,00
+Marcar pregunta
+Enunciado de la pregunta
+PlanSys2 es mejor que ROSPlan en todos los aspectos
+
+Seleccione una:
+Verdadero 
+Falso
+Retroalimentación
+La respuesta correcta es 'Verdadero'
+Pregunta 9
+Incorrecta
+Se puntúa -0,20 sobre 1,00
+Marcar pregunta
+Enunciado de la pregunta
+Las acciones que contiene el dominio PDDL...
+
+
+a.
+Ninguna es verdadera
+
+
+b.
+Son Behavior Trees que codifican la ejecución de una acción.
+
+
+c.
+Se implementan como clases que heredan de plansys2::ActionExecutorClient
+
+
+d.
+Se implementan como nodos de ROS2 que terminan siendo realmente LifeCycleNodes que están inactivos hasta que se activan para ejecutar una acción.
+
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+Se implementan como nodos de ROS2 que terminan siendo realmente LifeCycleNodes que están inactivos hasta que se activan para ejecutar una acción.
+
+Pregunta 10
+Correcta
+Se puntúa 1,00 sobre 1,00
+Marcar pregunta
+Enunciado de la pregunta
+Cuando se genera un plan, el Executor...
+
+
+a.
+Codifica el plan como un Behavior Tree, que es lo que se ejecuta.
+
+
+b.
+Envía línea por línea las acciones del plan para buscar qué action performer lo puede ejecutar.
+
+
+c.
+Ejecuta un grafo que representa el plan
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Codifica el plan como un Behavior Tree, que es lo que se ejecuta.
